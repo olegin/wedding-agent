@@ -65,7 +65,7 @@
 
 	var defaults = {
 		delay:                     3000,
-		numThumbs:                 15,
+		numThumbs:                 14,
 		preloadAhead:              40, // Set to -1 to preload all images
 		enableTopPager:            false,
 		enableBottomPager:         true,
@@ -80,8 +80,8 @@
 		pauseLinkText:             'Pause',
 		prevLinkText:              'Previous',
 		nextLinkText:              'Next',
-		nextPageLinkText:          'Next &rsaquo;',
-		prevPageLinkText:          '&lsaquo; Prev',
+		nextPageLinkText:          'След. &rsaquo;',
+		prevPageLinkText:          '&lsaquo; Пред.',
 		enableHistory:             false,
 		enableKeyboardNavigation:  true,
 		autoStart:                 false,
