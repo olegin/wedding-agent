@@ -1,0 +1,41 @@
+body {margin:0; padding:0; background-image:url(images/fon.png); background-repeat:repeat-y; background-color: #959595; width: 100%;}
+.container {float: left; margin: 0 0 0 250; width: 900px; 				border: 0 solid black}
+.header {float: left; border: 1px solid red; width: 100%; 				border: 0 solid yellow}
+.logo {float: left; margin-top: 100px; 									border: 0 solid green;}
+.logo img{border:0px;}
+.quote {float: right; margin:30 10 0 0; font-family:arial; font-size: 14px; color: #fff; width: 300px;  border: 0 solid blue; text-align:justify;}
+.quote .last {text-align: right;}
+
+.menu {float:left; width: 100%; padding: 10 0 25 0; 						border: 0 solid green;}
+.menu a:link {color:#ccc; font-size: 25px; font-family: arial; 		border: 0 solid yellow}
+.menu a:visited {color:#ccc;}
+.menu a:active {color:#ccc;}
+.menu a:hover {color:#fff;}
+.menu ul{padding: 0; margin: 0; list-style:none; border: 0;}
+.menu li{float:left; padding: 0 65 0 0; margin: 0 0 0 0; background: none; list-style:none; border: 0 solid blue;}
+.menu li.right{background: none;}
+.menu li.last{float:right; padding:0 10 0 0;  background:none;}
+
+.index {float:left; color:#fff; font-family: Arial; font-size:16px; font-weight: normal; text-indent: 20px; text-align:justify; border: 0 solid blue; margin: 0 10 0 0;}
+.index .first {margin:0; text-align:center;}
+.index .last {text-align:center;}
+
+.aboutleft {float:left; color:#fff; font-family: Arial; font-size:16px; font-weight: normal; text-indent: 20px; text-align:justify; border: 0 solid blue; width: 64%;}
+.aboutleft .first  {margin:0;}
+.aboutright {float:right; margin:0 10 0 0; 								border: 0px solid red;}
+
+.contacts {float:left; color:#fff; font-family: Arial; font-size:16px; font-weight: normal; text-align:center; border: 0 solid blue; margin: 0; width: 100%;}
+.contacts a{color:#fff;}
+.contacts a:hover {color:#ccc;}
+
+.service {float:left; color:#fff; font-family: Arial; font-size:16px; font-weight: normal; text-align:justify; border: 0 solid blue; margin: 0 10 0 0 ;}
+.feedback {float:left; color:#fff; font-family: Arial; font-size:16px; font-weight: normal; text-indent: 20px; text-align:justify; border: 0 solid blue; margin: 0 10 0 0 ;}
+
+.price {float: left; margin: 0; width: 100%;	 border: 0 solid red;}
+.price table {color:#fff; font-family: Arial; font-size: 16px; width:100%; padding: 0 10 0 0;}
+.price table .left {text-align: left; width: 72%; padding: 10 0 0 0;}
+.price table .center {text-align: left; }
+.price table .right {text-align: center; width: 12%;}
+.price_left {float: left; color:#fff; font-family: Arial; font-size: 16px; margin: 35 0 0 0; width: 40%;		border: 0 solid red;}
+.price_center {float: left; color:#fff; font-family: Arial; font-size: 16px; text-align:center; margin: 0 0 0 0; width: 30%;		border: 0 solid red;}
+.price_right {float: left; color:#fff; font-family: Arial; font-size: 16px; text-align:center; margin: 0 0 0 0; width: 30%;		border: 0 solid red;}
