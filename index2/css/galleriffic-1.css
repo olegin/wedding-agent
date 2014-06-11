@@ -67,18 +67,18 @@ div.navigation { /* The navigation style is set using jQuery so that the javascr
 }
 ul.thumbs {
 	clear: both;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	
 }
 ul.thumbs li {
 	float: none;
-	padding: 0 0 10 0;
-	margin: 0;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
 	list-style: none;
 }
 a.thumb {
-	padding: 0;
+	padding: 0px;
 	display: inline;
 	border: none;
 }
@@ -106,8 +106,8 @@ div.navigation div.bottom {
 div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
 	display: block;
 	float: left;
-	padding: 0 8 0 8;
-	font-size: 20px;
+	padding: 0px 8px 0px 8px;
+	font-size: 16px;
 }
 div.pagination a:hover {
 	background-color: #aaa;
@@ -115,10 +115,10 @@ div.pagination a:hover {
 }
 div.pagination span.current {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 16px;
 	color: #fff;
 }
 div.pagination span.ellipsis {
 	border: none;
-	padding: 15px 0 3px 2px;
+	padding: 15px 0px 3px 2px;
 }
