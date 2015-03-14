@@ -95,17 +95,16 @@
 	}
 
 	#logo {
-		text-align: center;
-		position: relative;
-		left: 0;
-		top: 0;
-		height: 2.5em;
-		line-height: 2.5em;
+		display: none;
 	}
 
 		#logo a {
 			font-size: 1em;
 		}
+		
+	
+	#logo2 {
+	display: none;}
 
 	#nav {
 		display: none;
