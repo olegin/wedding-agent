@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+﻿@charset 'UTF-8';
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
@@ -556,18 +556,15 @@
 			}
 				
 				.main.style2 h2 {
-					font-size: 1em;
+					font-size: 12pt;
 					line-height: 1em;
-					letter-spacing: 0px;
+					letter-spacing: 0px;		
 				}
 				.main.style2 p {
-					font-size: 11pt;
+					
 					text-align: justify;
 				}
-				.main.style2.listtitle p {
-					font-size: 11pt;
-					text-align: center;
-				}
+				
 							
 				
 				.main.style2 .content {
@@ -624,36 +621,120 @@
 					}
 
 						.main.style2.inactive.left .content {
-							left: -35%;
+							left: 0%;
 						}
 
 						.main.style2.inactive.right .content {
 							left: 100%;
 						}
 
+
 			.main.style3 {
-				text-align: center;
 				padding: 2em 0 2em 0;
+				overflow: hidden;
 			}
+				
 				.main.style3 h2 {
 					font-size: 1em;
 					line-height: 1em;
 					letter-spacing: 0px;
+					text-align:center;
+					margin-bottom: 2em;
 				}
+				.main.style3 p {
+					font-size: 11pt;
+					text-align: justify;
+				}
+							
 				.main.style3 .content {
+					position: relative;
+					width: 65%;
+					display: inline-block;
+					vertical-align: top;
+
+					-moz-transition: all 1s ease;
+					-webkit-transition: all 1s ease;
+					-o-transition: all 1s ease;
+					-ms-transition: all 1s ease;
+					transition: all 1s ease;
+
+					-moz-transform: translateZ(0);
+					-webkit-transform: translateZ(0);
+					-o-transform: translateZ(0);
+					-ms-transform: translateZ(0);
+					transform: translateZ(0);
 				}
 
-					.main.style3 .content > header {
+				.main.style3.left {
+				}
+
+					.main.style3.left:after {
+						content: '';
+						display: inline-block;
+						vertical-align: middle;
+						height: 100%;
+					}
+
+					.main.style3.left .content {
+						left: 0;
+					}
+
+				.main.style3.right {
+				}
+
+					.main.style3.right:before {
+						content: '';
+						display: inline-block;
+						vertical-align: middle;
+						height: 100%;
+					}
+
+					.main.style3.right .content {
+						left: 35%;
+					}
+
+				.main.style3.inactive {
+				}
+
+					.main.style3.inactive .content {
+					}
+
+						.main.style3.inactive.left .content {
+							left: -35%;
+						}
+
+						.main.style3.inactive.right .content {
+							left: 100%;
+						}
+						
+						
+						
+			
+			
+			.main.style4 {
+				text-align: center;
+				padding: 2em 0 2em 0;
+			}
+				.main.style4 h2 {
+					font-size: 1em;
+					line-height: 1em;
+					letter-spacing: 0px;
+					margin-bottom: 2em;
+				}
+				.main.style4 .content {
+				}
+
+					.main.style4 .content > header {
 						margin-bottom: 2em;
 					}
 
-				.main.style3.primary {
+				.main.style4.primary {
 					background: #aaaaaa;
 				}
 
-				.main.style3.secondary {
+				.main.style4.secondary {
 					background: #f5f6f7;
-				}
+				}	
 
 	/* Dark */
 
@@ -679,11 +760,42 @@
 				}
 	/* Addons */
 		.sublist p {
-		margin-left: 19em;
+		margin-left: 15em;
 		}
 		.listtitle  p{
 		text-align: center;
+		font-size: 9pt;
 		}
+		
+		#price {
+		display: absolute;
+		
+		}
+
+		#price ul {
+			height:3em;
+		}
+
+			#price ul li {
+				display: inline-block;
+				
+			}
+
+				#price .leftrow {
+				position: absolute;
+					left: 2em;
+				}
+				
+				#price .middlerow {
+				position: absolute;
+				left: 50%;
+				}
+		
+				
+				#price .rightrow {
+				position: absolute;
+					right: 3em;
+				}
 		
 /*********************************************************************************/
 /* Spinner                                                                       */
