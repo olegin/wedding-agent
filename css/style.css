@@ -517,6 +517,9 @@
 					line-height: 1em;
 					letter-spacing: 0px;
 				}
+				.main.style1 p {
+				font-size: 12pt;
+				}
 
 				.main.style1:before {
 					content: '';
@@ -558,10 +561,11 @@
 				.main.style2 h2 {
 					font-size: 12pt;
 					line-height: 1em;
-					letter-spacing: 0px;		
+					letter-spacing: 0px;
+					margin-bottom: 1em;					
 				}
 				.main.style2 p {
-					
+				
 					text-align: justify;
 				}
 				
@@ -764,7 +768,8 @@
 		}
 		.listtitle  p{
 		text-align: center;
-		font-size: 9pt;
+		font-size: 11pt;
+		
 		}
 		
 		#price {
@@ -784,6 +789,11 @@
 				#price .leftrow {
 				position: absolute;
 					left: 2em;
+									}
+				#price .leftrow2{
+				position: absolute;
+					left: 2em;
+					line-height:1.3em;
 				}
 				
 				#price .middlerow {

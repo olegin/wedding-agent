@@ -32,6 +32,11 @@
 				padding: 1.5em 1.25em 1.5em 1.25em;
 				background-color: rgba(255,255,255,0.9);
 			}
+			.container {
+				padding: 1.5em 1.25em 1.5em 1.25em;
+				background-color: rgba(255,255,255,0.9);
+				color: #39454b;
+			}
 
 	/* Main */
 
@@ -45,6 +50,16 @@
 			.main.style1 {
 				padding: 4em 15px 4em 15px;
 			}
+
+			.main.style1 p {
+				font-size: 10pt;
+				text-align: left;
+				}
+			.main.style2 p {
+				font-size: 10pt;
+				text-align: left;
+				}
+			
 
 				.main.style1 h2 {
 					font-size: 1em;
@@ -113,8 +128,12 @@
 		margin-left: 5em;
 		}
 		
+		#price ul{
+		height:2em;
+		}
 		#price ul li{
 		font-size: 50%;
+		line-height: 1.3em;
 		}
 
 /*********************************************************************************/
