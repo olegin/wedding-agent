@@ -492,6 +492,9 @@
 		}
 
 			.box.style2 {
+				padding: 1em 1.5em 1.5em 1.5em;
+			}
+			.box.style3 {
 				padding: 1.5em 1.5em 1.5em 1.5em;
 			}
 
@@ -505,6 +508,9 @@
 
 			.main.fullscreen {
 				height: 100%;
+			}
+			.main.fullscreen2 {
+				height: 120%;
 			}
 
 			.main.style1 {
@@ -778,7 +784,7 @@
 		}
 
 		#price ul {
-			height:3em;
+			height:3.5em;
 		}
 
 			#price ul li {
@@ -786,6 +792,9 @@
 				
 			}
 
+				#price .firstrow {
+				height:3em;
+									}
 				#price .leftrow {
 				position: absolute;
 					left: 2em;
@@ -794,6 +803,7 @@
 				position: absolute;
 					left: 2em;
 					line-height:1.3em;
+					text-align: left;
 				}
 				
 				#price .middlerow {

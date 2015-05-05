@@ -53,7 +53,7 @@
 
 			.main.style1 p {
 				font-size: 10pt;
-				text-align: left;
+				
 				}
 			.main.style2 p {
 				font-size: 10pt;
@@ -135,6 +135,9 @@
 		font-size: 50%;
 		line-height: 1.3em;
 		}
+		#price .firstrow {
+				height:1.5em;
+									}
 
 /*********************************************************************************/
 /* Header                                                                        */
